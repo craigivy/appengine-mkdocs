@@ -7,6 +7,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
 
+      - name: Build
+        uses: Tiryoh/actions-mkdocs@v0
+
       - name: Deploy
         uses: google-github-actions/deploy-appengine@v0.2.0
         with:
