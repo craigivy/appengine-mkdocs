@@ -1,0 +1,7 @@
+site/
+docs/
+.github/
+.gitignore
+LICENSE
+mkdocs.yml
+README.md
