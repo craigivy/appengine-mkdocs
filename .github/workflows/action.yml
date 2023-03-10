@@ -1,5 +1,4 @@
 name: deploy to appengine
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
   Deploy-to-gae:
